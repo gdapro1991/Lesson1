@@ -1,0 +1,123 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Lora:regular,700,italic&display=swap&subset=cyrillic-ext");
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+html {
+	font-size: 22px;
+	/* по умолчанию */
+	font-family: 'Lora', serif;
+}
+
+body {
+	line-height: 1;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+/* ------------------------------ */
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+h1,
+h2 {
+	font-size: 36px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.text {
+	text-align: justify;
+	text-indent: 40px;
+}
+
+span {
+	font-style: italic;
+	text-decoration: underline;
+}
+
+img {
+	max-width: 100%;
+	border: 3px solid rgba(124, 25, 25, 0.479);
+}
+
+.image {
+	text-align: center;
+}
+
+.image__text {
+	margin: 0px 0px 20px 0px;
+}
+
+.one {
+	border: 8px dashed rgb(12, 14, 88);
+	border-radius: 20px;
+}
+
+.two {
+	box-shadow: inset 5px 5px 20px rgba(20, 128, 47, 0.849);
+}
+
+.three {
+	opacity: 0.5;
+}
+
+.icon {
+	width: 7px;
+	height: 7px;
+	display: inline-block;
+	background-color: rgb(49, 23, 199);
+	border-radius: 50%;
+	vertical-align: middle;
+}
